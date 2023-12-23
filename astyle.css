@@ -1,0 +1,66 @@
+/* Reset some default styles for better consistency across browsers */
+body,
+h1,
+h2,
+p,
+address {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header,
+section,
+footer {
+    margin: 20px;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+}
+
+h2 {
+    color: #333;
+}
+
+section {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-top: 20px;
+}
+
+address {
+    margin-top: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Add some responsive styles */
+@media (max-width: 600px) {
+
+    header,
+    section,
+    footer {
+        margin: 10px;
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+}
